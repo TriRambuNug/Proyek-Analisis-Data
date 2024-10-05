@@ -8,7 +8,7 @@ import statsmodels.api as sm
 
 #Load Data
 def load_data():
-    df = pd.read_csv("C:/Users/trnug/Documents/BANGKIT ML PATH 2024/PROYEK DATA SIENCE/dashboard/PRSA_Data_Aotizhongxin_20130301-20170228.csv", delimiter=',')
+    df = pd.read_csv("dashboard/PRSA_Data_Aotizhongxin_20130301-20170228.csv", delimiter=',')
     return df
 
 #helper function
